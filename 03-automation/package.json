@@ -1,0 +1,23 @@
+{
+  "name": "juice-shop-qa-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright UI and API automation for OWASP Juice Shop 20.3.0.",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test tests/api-business-flow.spec.js",
+    "test:ui": "playwright test tests/ui-business-flow.spec.js",
+    "test:advanced": "playwright test tests/advanced-scenarios.spec.js",
+    "pw": "node scripts/pw.mjs",
+    "pw:open": "node scripts/pw.mjs -s=juice open --browser=msedge --persistent --profile=D:\\Codex\\playwright-cli\\profiles\\juice-shop http://localhost:3000",
+    "pw:open:headed": "node scripts/pw.mjs -s=juice open --browser=msedge --headed --persistent --profile=D:\\Codex\\playwright-cli\\profiles\\juice-shop http://localhost:3000",
+    "pw:snapshot": "node scripts/pw.mjs -s=juice snapshot",
+    "pw:screenshot": "node scripts/pw.mjs -s=juice screenshot --full-page --filename=D:\\Codex\\ttone\\04-evidence\\screenshots\\playwright-cli-home.png",
+    "pw:list": "node scripts/pw.mjs list",
+    "pw:close": "node scripts/pw.mjs -s=juice close",
+    "report": "playwright show-report ../05-reports/html"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1"
+  }
+}

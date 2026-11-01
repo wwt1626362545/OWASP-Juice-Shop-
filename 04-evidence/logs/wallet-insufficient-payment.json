@@ -1,0 +1,22 @@
+{
+  "userId": 25,
+  "basketId": 6,
+  "paymentId": "wallet",
+  "responseStatus": 500,
+  "responseExcerpt": "<html>\n  <head>\n    <meta charset='utf-8'> \n    <title>Error: Insufficient wallet balance.</title>\n    <style>* {\n  margin: 0;\n  padding: 0;\n  outline: 0;\n}\n\nbody {\n  padding: 80px 100px;\n  font: 13px \"Helvetica Neue\", \"Lucida Grande\", \"Arial\";\n  background: #ECE9E9 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ECE9E9));\n  background: #ECE9E9 -moz-linear-gradient(top, #fff, #ECE9E9);\n  ",
+  "cartPreserved": true,
+  "orderCreated": false,
+  "orderIdsBefore": [
+    "f471-ec496cebf4024cfc",
+    "f471-452037ba59b8e4e9",
+    "f471-4bd0a985bf2885e1",
+    "f471-01f0e26a4921b89b"
+  ],
+  "orderIdsAfter": [
+    "f471-ec496cebf4024cfc",
+    "f471-452037ba59b8e4e9",
+    "f471-4bd0a985bf2885e1",
+    "f471-01f0e26a4921b89b"
+  ],
+  "finding": "Insufficient wallet balance blocks checkout. The current API returns a 500-style error instead of a clear 4xx business error."
+}

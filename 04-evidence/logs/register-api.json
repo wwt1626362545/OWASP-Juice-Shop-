@@ -1,0 +1,20 @@
+{
+  "email": "codex-qa-1793430489577@example.com",
+  "status": 201,
+  "body": {
+    "status": "success",
+    "data": {
+      "username": "",
+      "role": "customer",
+      "deluxeToken": "",
+      "lastLoginIp": "0.0.0.0",
+      "profileImage": "/assets/public/images/uploads/default.svg",
+      "isActive": true,
+      "id": 33,
+      "email": "codex-qa-1793430489577@example.com",
+      "updatedAt": "2026-10-31T07:06:55.690Z",
+      "createdAt": "2026-10-31T07:06:55.690Z",
+      "deletedAt": null
+    }
+  }
+}

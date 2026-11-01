@@ -1,0 +1,39 @@
+- generic [ref=e9]:
+  - generic [ref=e12]:
+    - button "Open Sidenav" [ref=e385] [cursor=pointer]:
+      - img [aria-hidden] [ref=e14]: menu
+    - button "Back to homepage" [ref=e386]:
+      - generic [ref=e19]:
+        - img "OWASP Juice Shop" [ref=e387]
+        - generic [ref=e21]: OWASP Juice Shop
+    - generic "Click to search" [ref=e388]:
+      - button "Open search" [ref=e389] [cursor=pointer]:
+        - img [aria-hidden] [ref=e27]: search
+      - generic:
+        - img [aria-hidden] [ref=e30]: search
+        - textbox [ref=e31]
+        - button "Close search" [ref=e390] [cursor=pointer]:
+          - img [aria-hidden] [ref=e33]: close
+    - generic [ref=e36]:
+      - button "Show/hide account menu" [ref=e391]:
+        - img [aria-hidden] [ref=e38]: account_circle
+        - generic [ref=e39]: Account
+      - button "Show the shopping cart" [ref=e392]:
+        - img [aria-hidden] [ref=e43]: shopping_cart
+        - generic [ref=e44]:
+          - text: Your Basket
+          - generic [ref=e45]: "0"
+      - button "Language selection menu" [ref=e393]:
+        - img [aria-hidden] [ref=e49]: language
+        - generic [ref=e50]: EN
+  - generic [ref=e457]:
+    - generic [ref=e458]:
+      - heading "Your Basket (anonymous)" [level=1] [ref=e459]
+      - table [ref=e460]:
+        - row [ref=e461]
+      - generic [ref=e487]: "Total Price: 0¤"
+    - button "Checkout" [disabled]:
+      - generic:
+        - img [aria-hidden]: cart-arrow-down
+        - text: Checkout
+    - generic [ref=e494]: You will gain 0 Bonus Points from this order!

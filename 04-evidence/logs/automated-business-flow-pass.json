@@ -1,0 +1,21 @@
+{
+  "target": "OWASP Juice Shop 20.3.0",
+  "email": "codex-order-1793437334091-b75624@example.com",
+  "userId": 32,
+  "basketId": 11,
+  "product": {
+    "id": 1,
+    "name": "Apple Juice (1000ml)",
+    "price": 1.99
+  },
+  "orderId": "de7b-7e173ddced7e1997",
+  "steps": [
+    "查询初始购物车",
+    "搜索 Apple Juice",
+    "加入购物车",
+    "修改商品数量为 2",
+    "校验购物车商品数量",
+    "提交订单",
+    "在订单历史中找到新订单"
+  ]
+}

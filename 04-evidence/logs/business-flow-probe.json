@@ -1,0 +1,61 @@
+{
+  "email": "codex-flow-1793430529560@example.com",
+  "orderId": "15fe-1fcaa798d8b03ce7",
+  "found": false,
+  "steps": [
+    {
+      "step": "register",
+      "method": "POST",
+      "path": "/api/Users/",
+      "status": 201
+    },
+    {
+      "step": "login",
+      "method": "POST",
+      "path": "/rest/user/login",
+      "status": 200
+    },
+    {
+      "step": "basket-before",
+      "method": "GET",
+      "path": "/rest/basket/15",
+      "status": 200
+    },
+    {
+      "step": "search",
+      "method": "GET",
+      "path": "/rest/products/search?q=apple",
+      "status": 200
+    },
+    {
+      "step": "add-item",
+      "method": "POST",
+      "path": "/api/BasketItems/",
+      "status": 200
+    },
+    {
+      "step": "update-quantity",
+      "method": "PUT",
+      "path": "/api/BasketItems/11",
+      "status": 200
+    },
+    {
+      "step": "basket-after",
+      "method": "GET",
+      "path": "/rest/basket/15",
+      "status": 200
+    },
+    {
+      "step": "checkout",
+      "method": "POST",
+      "path": "/rest/basket/15/checkout",
+      "status": 200
+    },
+    {
+      "step": "orders",
+      "method": "GET",
+      "path": "/rest/orders",
+      "status": 500
+    }
+  ]
+}

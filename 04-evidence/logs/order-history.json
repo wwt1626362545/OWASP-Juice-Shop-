@@ -1,0 +1,31 @@
+{
+  "status": 200,
+  "body": {
+    "status": "success",
+    "data": [
+      {
+        "promotionalAmount": "0",
+        "paymentId": "card",
+        "addressId": 1,
+        "orderId": "15fe-1fcaa798d8b03ce7",
+        "delivered": false,
+        "email": "c*d*x-fl*w-1793430529560@*x*mpl*.c*m",
+        "totalPrice": 4.97,
+        "products": [
+          {
+            "quantity": 2,
+            "id": 1,
+            "name": "Apple Juice (1000ml)",
+            "price": 1.99,
+            "total": 3.98,
+            "bonus": 0
+          }
+        ],
+        "bonus": 0,
+        "deliveryPrice": 0.99,
+        "eta": "1",
+        "_id": "8SaEc4tXPpMWM7ea5"
+      }
+    ]
+  }
+}

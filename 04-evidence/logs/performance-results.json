@@ -1,0 +1,98 @@
+{
+  "endpoint": "GET /rest/products/search?q=apple",
+  "iterations": 20,
+  "baseURL": "http://localhost:3000",
+  "environment": "Local packaged Juice Shop 20.3.0",
+  "threshold": "Sanity threshold: p95 < 5000 ms",
+  "summary": {
+    "count": 20,
+    "minMs": 16.579899999999952,
+    "maxMs": 28.550599999999918,
+    "avgMs": 20.537744999999994,
+    "p50Ms": 19.976,
+    "p90Ms": 22.835499999999968,
+    "p95Ms": 26.685699999999997
+  },
+  "runs": [
+    {
+      "index": 1,
+      "durationMs": 20.098000000000013
+    },
+    {
+      "index": 2,
+      "durationMs": 19.920000000000016
+    },
+    {
+      "index": 3,
+      "durationMs": 17.476999999999975
+    },
+    {
+      "index": 4,
+      "durationMs": 18.150199999999984
+    },
+    {
+      "index": 5,
+      "durationMs": 22.835499999999968
+    },
+    {
+      "index": 6,
+      "durationMs": 20.139999999999986
+    },
+    {
+      "index": 7,
+      "durationMs": 20.303499999999985
+    },
+    {
+      "index": 8,
+      "durationMs": 21.403699999999958
+    },
+    {
+      "index": 9,
+      "durationMs": 20.954000000000065
+    },
+    {
+      "index": 10,
+      "durationMs": 19.73320000000001
+    },
+    {
+      "index": 11,
+      "durationMs": 28.550599999999918
+    },
+    {
+      "index": 12,
+      "durationMs": 16.579899999999952
+    },
+    {
+      "index": 13,
+      "durationMs": 18.416200000000003
+    },
+    {
+      "index": 14,
+      "durationMs": 20.57650000000001
+    },
+    {
+      "index": 15,
+      "durationMs": 19.976
+    },
+    {
+      "index": 16,
+      "durationMs": 26.685699999999997
+    },
+    {
+      "index": 17,
+      "durationMs": 21.490600000000086
+    },
+    {
+      "index": 18,
+      "durationMs": 18.938800000000015
+    },
+    {
+      "index": 19,
+      "durationMs": 19.51380000000006
+    },
+    {
+      "index": 20,
+      "durationMs": 19.011699999999905
+    }
+  ]
+}

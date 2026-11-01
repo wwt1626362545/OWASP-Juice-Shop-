@@ -1,0 +1,9 @@
+{
+  "orderId": "f471-01f0e26a4921b89b",
+  "sourceRoutesReviewed": [
+    "routes/order.ts",
+    "routes/orderHistory.ts"
+  ],
+  "finding": "Order history exposes no user-facing cancellation action and the reviewed routes contain no cancel-order endpoint.",
+  "status": "Not Applicable / Product capability absent"
+}

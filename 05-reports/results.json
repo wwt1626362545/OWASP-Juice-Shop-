@@ -1,0 +1,452 @@
+{
+  "config": {
+    "argv": [
+      "F:\\node\\node.exe",
+      "D:\\Codex\\ttone\\03-automation\\node_modules\\@playwright\\test\\cli.js",
+      "test"
+    ],
+    "configFile": "D:\\Codex\\ttone\\03-automation\\playwright.config.js",
+    "rootDir": "D:/Codex/ttone/03-automation/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/Codex/ttone/04-evidence/test-artifacts",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "D:/Codex/ttone/03-automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "D:\\Codex\\ttone\\04-evidence\\test-artifacts",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "D:\\Codex\\ttone\\03-automation\\tests",
+        "snapshotDir": "D:\\Codex\\ttone\\03-automation\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://localhost:3000",
+          "channel": "msedge",
+          "headless": true,
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "ignoreHTTPSErrors": true,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "D:\\Codex\\ttone\\05-reports\\results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "D:\\Codex\\ttone\\05-reports\\html",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "advanced-scenarios.spec.js",
+      "file": "advanced-scenarios.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "性能基线：顺序搜索的商品接口延迟统计",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 533,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:02:02.837Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "performance-results",
+                      "contentType": "application/json",
+                      "body": "ewogICJlbmRwb2ludCI6ICJHRVQgL3Jlc3QvcHJvZHVjdHMvc2VhcmNoP3E9YXBwbGUiLAogICJpdGVyYXRpb25zIjogMjAsCiAgImJhc2VVUkwiOiAiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwKICAiZW52aXJvbm1lbnQiOiAiTG9jYWwgcGFja2FnZWQgSnVpY2UgU2hvcCAyMC4zLjAiLAogICJ0aHJlc2hvbGQiOiAiU2FuaXR5IHRocmVzaG9sZDogcDk1IDwgNTAwMCBtcyIsCiAgInN1bW1hcnkiOiB7CiAgICAiY291bnQiOiAyMCwKICAgICJtaW5NcyI6IDE2LjU3OTg5OTk5OTk5OTk1MiwKICAgICJtYXhNcyI6IDI4LjU1MDU5OTk5OTk5OTkxOCwKICAgICJhdmdNcyI6IDIwLjUzNzc0NDk5OTk5OTk5NCwKICAgICJwNTBNcyI6IDE5Ljk3NiwKICAgICJwOTBNcyI6IDIyLjgzNTQ5OTk5OTk5OTk2OCwKICAgICJwOTVNcyI6IDI2LjY4NTY5OTk5OTk5OTk5NwogIH0sCiAgInJ1bnMiOiBbCiAgICB7CiAgICAgICJpbmRleCI6IDEsCiAgICAgICJkdXJhdGlvbk1zIjogMjAuMDk4MDAwMDAwMDAwMDEzCiAgICB9LAogICAgewogICAgICAiaW5kZXgiOiAyLAogICAgICAiZHVyYXRpb25NcyI6IDE5LjkyMDAwMDAwMDAwMDAxNgogICAgfSwKICAgIHsKICAgICAgImluZGV4IjogMywKICAgICAgImR1cmF0aW9uTXMiOiAxNy40NzY5OTk5OTk5OTk5NzUKICAgIH0sCiAgICB7CiAgICAgICJpbmRleCI6IDQsCiAgICAgICJkdXJhdGlvbk1zIjogMTguMTUwMTk5OTk5OTk5OTg0CiAgICB9LAogICAgewogICAgICAiaW5kZXgiOiA1LAogICAgICAiZHVyYXRpb25NcyI6IDIyLjgzNTQ5OTk5OTk5OTk2OAogICAgfSwKICAgIHsKICAgICAgImluZGV4IjogNiwKICAgICAgImR1cmF0aW9uTXMiOiAyMC4xMzk5OTk5OTk5OTk5ODYKICAgIH0sCiAgICB7CiAgICAgICJpbmRleCI6IDcsCiAgICAgICJkdXJhdGlvbk1zIjogMjAuMzAzNDk5OTk5OTk5OTg1CiAgICB9LAogICAgewogICAgICAiaW5kZXgiOiA4LAogICAgICAiZHVyYXRpb25NcyI6IDIxLjQwMzY5OTk5OTk5OTk1OAogICAgfSwKICAgIHsKICAgICAgImluZGV4IjogOSwKICAgICAgImR1cmF0aW9uTXMiOiAyMC45NTQwMDAwMDAwMDAwNjUKICAgIH0sCiAgICB7CiAgICAgICJpbmRleCI6IDEwLAogICAgICAiZHVyYXRpb25NcyI6IDE5LjczMzIwMDAwMDAwMDAxCiAgICB9LAogICAgewogICAgICAiaW5kZXgiOiAxMSwKICAgICAgImR1cmF0aW9uTXMiOiAyOC41NTA1OTk5OTk5OTk5MTgKICAgIH0sCiAgICB7CiAgICAgICJpbmRleCI6IDEyLAogICAgICAiZHVyYXRpb25NcyI6IDE2LjU3OTg5OTk5OTk5OTk1MgogICAgfSwKICAgIHsKICAgICAgImluZGV4IjogMTMsCiAgICAgICJkdXJhdGlvbk1zIjogMTguNDE2MjAwMDAwMDAwMDAzCiAgICB9LAogICAgewogICAgICAiaW5kZXgiOiAxNCwKICAgICAgImR1cmF0aW9uTXMiOiAyMC41NzY1MDAwMDAwMDAwMQogICAgfSwKICAgIHsKICAgICAgImluZGV4IjogMTUsCiAgICAgICJkdXJhdGlvbk1zIjogMTkuOTc2CiAgICB9LAogICAgewogICAgICAiaW5kZXgiOiAxNiwKICAgICAgImR1cmF0aW9uTXMiOiAyNi42ODU2OTk5OTk5OTk5OTcKICAgIH0sCiAgICB7CiAgICAgICJpbmRleCI6IDE3LAogICAgICAiZHVyYXRpb25NcyI6IDIxLjQ5MDYwMDAwMDAwMDA4NgogICAgfSwKICAgIHsKICAgICAgImluZGV4IjogMTgsCiAgICAgICJkdXJhdGlvbk1zIjogMTguOTM4ODAwMDAwMDAwMDE1CiAgICB9LAogICAgewogICAgICAiaW5kZXgiOiAxOSwKICAgICAgImR1cmF0aW9uTXMiOiAxOS41MTM4MDAwMDAwMDAwNgogICAgfSwKICAgIHsKICAgICAgImluZGV4IjogMjAsCiAgICAgICJkdXJhdGlvbk1zIjogMTkuMDExNjk5OTk5OTk5OTA1CiAgICB9CiAgXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7b2bd2641ae1bfed5d90-bede99fbf5bf829a77d4",
+          "file": "advanced-scenarios.spec.js",
+          "line": 157,
+          "column": 1
+        },
+        {
+          "title": "并发：并行商品搜索和同一购物车并发加购",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 273,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:02:03.393Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "concurrency-results",
+                      "contentType": "application/json",
+                      "body": "ewogICJzZWFyY2giOiB7CiAgICAiY29uY3VycmVuY3kiOiA1LAogICAgInRvdGFsRHVyYXRpb25NcyI6IDc2LjY3ODksCiAgICAic3VjY2Vzc0NvdW50IjogNQogIH0sCiAgImNvbmN1cnJlbnRBZGRUb0Jhc2tldCI6IHsKICAgICJjb25jdXJyZW5jeSI6IDUsCiAgICAidG90YWxEdXJhdGlvbk1zIjogNTUuMTA1MDk5OTk5OTk5ODgsCiAgICAic3RhdHVzZXMiOiBbCiAgICAgIDIwMCwKICAgICAgNTAwLAogICAgICA1MDAsCiAgICAgIDUwMCwKICAgICAgNTAwCiAgICBdLAogICAgInN1Y2Nlc3NmdWxBZGRzIjogMSwKICAgICJwZXJzaXN0ZWRQcm9kdWN0Um93cyI6IDEsCiAgICAicGVyc2lzdGVkUXVhbnRpdHkiOiAxCiAgfQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7b2bd2641ae1bfed5d90-fb18eff5d6f23cf89399",
+          "file": "advanced-scenarios.spec.js",
+          "line": 197,
+          "column": 1
+        },
+        {
+          "title": "取消订单能力：订单历史不提供取消操作",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9354,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:02:03.675Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "cancel-order-capability",
+                      "contentType": "application/json",
+                      "body": "ewogICJvcmRlcklkIjogImY0NzEtMDFmMGUyNmE0OTIxYjg5YiIsCiAgInNvdXJjZVJvdXRlc1Jldmlld2VkIjogWwogICAgInJvdXRlcy9vcmRlci50cyIsCiAgICAicm91dGVzL29yZGVySGlzdG9yeS50cyIKICBdLAogICJmaW5kaW5nIjogIk9yZGVyIGhpc3RvcnkgZXhwb3NlcyBubyB1c2VyLWZhY2luZyBjYW5jZWxsYXRpb24gYWN0aW9uIGFuZCB0aGUgcmV2aWV3ZWQgcm91dGVzIGNvbnRhaW4gbm8gY2FuY2VsLW9yZGVyIGVuZHBvaW50LiIsCiAgInN0YXR1cyI6ICJOb3QgQXBwbGljYWJsZSAvIFByb2R1Y3QgY2FwYWJpbGl0eSBhYnNlbnQiCn0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7b2bd2641ae1bfed5d90-55dfed0a2bda8f44e8b7",
+          "file": "advanced-scenarios.spec.js",
+          "line": 274,
+          "column": 1
+        },
+        {
+          "title": "支付余额：新用户钱包余额不足时拒绝订单",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 192,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:02:13.684Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "wallet-insufficient-payment",
+                      "contentType": "application/json",
+                      "body": "ewogICJ1c2VySWQiOiAyNSwKICAiYmFza2V0SWQiOiA2LAogICJwYXltZW50SWQiOiAid2FsbGV0IiwKICAicmVzcG9uc2VTdGF0dXMiOiA1MDAsCiAgInJlc3BvbnNlRXhjZXJwdCI6ICI8aHRtbD5cbiAgPGhlYWQ+XG4gICAgPG1ldGEgY2hhcnNldD0ndXRmLTgnPiBcbiAgICA8dGl0bGU+RXJyb3I6IEluc3VmZmljaWVudCB3YWxsZXQgYmFsYW5jZS48L3RpdGxlPlxuICAgIDxzdHlsZT4qIHtcbiAgbWFyZ2luOiAwO1xuICBwYWRkaW5nOiAwO1xuICBvdXRsaW5lOiAwO1xufVxuXG5ib2R5IHtcbiAgcGFkZGluZzogODBweCAxMDBweDtcbiAgZm9udDogMTNweCBcIkhlbHZldGljYSBOZXVlXCIsIFwiTHVjaWRhIEdyYW5kZVwiLCBcIkFyaWFsXCI7XG4gIGJhY2tncm91bmQ6ICNFQ0U5RTkgLXdlYmtpdC1ncmFkaWVudChsaW5lYXIsIDAlIDAlLCAwJSAxMDAlLCBmcm9tKCNmZmYpLCB0bygjRUNFOUU5KSk7XG4gIGJhY2tncm91bmQ6ICNFQ0U5RTkgLW1vei1saW5lYXItZ3JhZGllbnQodG9wLCAjZmZmLCAjRUNFOUU5KTtcbiAgIiwKICAiY2FydFByZXNlcnZlZCI6IHRydWUsCiAgIm9yZGVyQ3JlYXRlZCI6IGZhbHNlLAogICJvcmRlcklkc0JlZm9yZSI6IFsKICAgICJmNDcxLWVjNDk2Y2ViZjQwMjRjZmMiLAogICAgImY0NzEtNDUyMDM3YmE1OWI4ZTRlOSIsCiAgICAiZjQ3MS00YmQwYTk4NWJmMjg4NWUxIiwKICAgICJmNDcxLTAxZjBlMjZhNDkyMWI4OWIiCiAgXSwKICAib3JkZXJJZHNBZnRlciI6IFsKICAgICJmNDcxLWVjNDk2Y2ViZjQwMjRjZmMiLAogICAgImY0NzEtNDUyMDM3YmE1OWI4ZTRlOSIsCiAgICAiZjQ3MS00YmQwYTk4NWJmMjg4NWUxIiwKICAgICJmNDcxLTAxZjBlMjZhNDkyMWI4OWIiCiAgXSwKICAiZmluZGluZyI6ICJJbnN1ZmZpY2llbnQgd2FsbGV0IGJhbGFuY2UgYmxvY2tzIGNoZWNrb3V0LiBUaGUgY3VycmVudCBBUEkgcmV0dXJucyBhIDUwMC1zdHlsZSBlcnJvciBpbnN0ZWFkIG9mIGEgY2xlYXIgNHh4IGJ1c2luZXNzIGVycm9yLiIKfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7b2bd2641ae1bfed5d90-cdc7afa33739703c956c",
+          "file": "advanced-scenarios.spec.js",
+          "line": 325,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "api-business-flow.spec.js",
+      "file": "api-business-flow.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Juice Shop API",
+          "file": "api-business-flow.spec.js",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "商品目录和搜索接口返回可断言的业务数据",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 45,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-31T09:02:13.902Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "15573ff9e330a991b4d3-215e2b672b6fd3a49fc5",
+              "file": "api-business-flow.spec.js",
+              "line": 11,
+              "column": 3
+            },
+            {
+              "title": "登录成功返回令牌，错误密码被拒绝",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 108,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-31T09:02:13.963Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "15573ff9e330a991b4d3-dbdf598ed45654473508",
+              "file": "api-business-flow.spec.js",
+              "line": 38,
+              "column": 3
+            },
+            {
+              "title": "注册到下单的完整业务链路成功",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 291,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-31T09:02:14.082Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "business-flow-result",
+                          "contentType": "application/json",
+                          "body": "ewogICJ0YXJnZXQiOiAiT1dBU1AgSnVpY2UgU2hvcCAyMC4zLjAiLAogICJlbWFpbCI6ICJjb2RleC1vcmRlci0xNzkzNDM3MzM0MDkxLWI3NTYyNEBleGFtcGxlLmNvbSIsCiAgInVzZXJJZCI6IDMyLAogICJiYXNrZXRJZCI6IDExLAogICJwcm9kdWN0IjogewogICAgImlkIjogMSwKICAgICJuYW1lIjogIkFwcGxlIEp1aWNlICgxMDAwbWwpIiwKICAgICJwcmljZSI6IDEuOTkKICB9LAogICJvcmRlcklkIjogImRlN2ItN2UxNzNkZGNlZDdlMTk5NyIsCiAgInN0ZXBzIjogWwogICAgIuafpeivouWIneWni+i0reeJqei9piIsCiAgICAi5pCc57SiIEFwcGxlIEp1aWNlIiwKICAgICLliqDlhaXotK3nianovaYiLAogICAgIuS/ruaUueWVhuWTgeaVsOmHj+S4uiAyIiwKICAgICLmoKHpqozotK3nianovabllYblk4HmlbDph48iLAogICAgIuaPkOS6pOiuouWNlSIsCiAgICAi5Zyo6K6i5Y2V5Y6G5Y+y5Lit5om+5Yiw5paw6K6i5Y2VIgogIF0KfQ=="
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "15573ff9e330a991b4d3-74e8b9c49c3546096228",
+              "file": "api-business-flow.spec.js",
+              "line": 58,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ui-business-flow.spec.js",
+      "file": "ui-business-flow.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "UI 完成登录、商品搜索、加入购物车和购物车校验",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6267,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:02:14.390Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "08d8e4c06c6018774667-d4e865e017dad64f4492",
+          "file": "ui-business-flow.spec.js",
+          "line": 10,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-31T09:02:02.272Z",
+    "duration": 18947.558,
+    "expected": 8,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

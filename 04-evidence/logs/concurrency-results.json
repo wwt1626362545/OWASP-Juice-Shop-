@@ -1,0 +1,21 @@
+{
+  "search": {
+    "concurrency": 5,
+    "totalDurationMs": 76.6789,
+    "successCount": 5
+  },
+  "concurrentAddToBasket": {
+    "concurrency": 5,
+    "totalDurationMs": 55.10509999999988,
+    "statuses": [
+      200,
+      500,
+      500,
+      500,
+      500
+    ],
+    "successfulAdds": 1,
+    "persistedProductRows": 1,
+    "persistedQuantity": 1
+  }
+}
